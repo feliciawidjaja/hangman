@@ -1,0 +1,155 @@
+#button_id {
+    width: 55px;
+    height: 50px;
+    /* margin-left: 7px; */
+    font-size: 20px;
+    background-color: rgba(219, 51, 51, 0.849);
+    border-color: grey;
+    border-radius: 4px;
+    border: none;
+    margin: 0.5%;
+}
+
+#restart {
+    width: 100px;
+    height: 50px;
+    margin-left: 7px;
+    font-size: 20px;
+    background-color: rgba(101, 113, 226, 0.815);
+    border-color: grey;
+    border-radius: 4px;
+    border: none;
+    position: relative;
+}
+
+#button_id:hover{
+    background-color: rgba(219, 51, 51, 0.562);
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+#buttonClicked{
+    background-color: rgba(219, 51, 51, 0.692);
+    width: 55px;
+    height: 50px;
+    margin-left: 7px;
+    font-size: 20px;
+    border-color: grey;
+    cursor: not-allowed;
+    border-radius: 4px;
+    border: none;
+}
+
+#buttonClicked:active{
+    background-color: rgba(219, 51, 51, 0.692);
+    margin-left: 5px;
+    font-size: 20px;
+    border-color: grey;
+    cursor: not-allowed;
+    color: black;
+    border-radius: 4px;
+    border: none;
+}
+
+#word{
+    font-size: 45px;
+    color: black;
+}
+
+h1{
+    text-align: center;
+}
+
+#hangmanImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+body{
+    text-align: center;
+}
+
+#buttonClicked{
+    visibility: hidden;
+}
+
+@media only screen and (max-width:500px) and (min-width:350px) {
+    #button_id {
+        width: 20vw;
+        height: 10vh;
+        margin-left: 7px;
+        border-radius: 4px;
+        border: none;
+        margin: 2%;
+        font-size: 0.8cm;
+    }
+
+    #restart {
+        width: 23vw;
+        height: 7vh;
+        margin-left: 7px;
+        background-color: rgba(101, 113, 226, 0.815);
+        border-color: grey;
+        border-radius: 4px;
+        border: none;
+    }
+
+    #button_id:hover{
+        background-color: rgba(219, 51, 51, 0.562);
+        cursor: pointer;
+        border-radius: 4px;
+        border: none;
+    }
+
+    #buttonClicked{
+        background-color: rgba(219, 51, 51, 0.692);
+        width: 20%;
+        height: 20%;
+        margin-left: 7px;
+        border-color: grey;
+        cursor: not-allowed;
+        border-radius: 4px;
+        border: none;
+    }
+
+    #buttonClicked:active{
+        background-color: rgba(219, 51, 51, 0.692);
+        margin-left: 5px;
+        font-size: 20px;
+        border-color: grey;
+        cursor: not-allowed;
+        color: black;
+        border-radius: 4px;
+        border: none;
+    }
+
+    #hangmanImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+    }
+
+    #word{
+        font-size: 30px;
+        color: black;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+
+
+    body{
+        text-align: center;
+    }
+
+    #buttonClicked{
+        visibility: hidden;
+    }
+}
+
